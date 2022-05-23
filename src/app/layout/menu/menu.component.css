@@ -1,0 +1,14 @@
+.category {
+    background-color: bisque;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.right {
+    float: right;
+}
+
+.quantity {
+    font-size: 10px;
+    line-height: 30px;
+}

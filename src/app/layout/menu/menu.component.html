@@ -1,0 +1,12 @@
+<div class="category">
+    <h3 class="text-center">All Category</h3>
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of navItems">
+            {{item.tenNAV}} <span class="font-weight-bold font-italicb text-danger" *ngIf="item.soLuong >= 200; else elseNAV">HOT</span>
+            <span class="right font-style-italich quantity">Số lượng: {{item.soLuong}} </span></li>
+        <ng-template #elseNAV></ng-template>
+    </ul>
+
+    <img class="mt-4 card-img" height="120px" src="https://o.rada.vn/data/image/2020/11/13/Tai-va-cai-dat-lmht-700.jpg" alt="">
+    <img class="mt-4 card-img" height="120px" src="https://phongnet.com/wp-content/uploads/2021/04/cau-hinh-valorant-870x610.jpg" alt="">
+</div>

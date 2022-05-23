@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-lg-4" *ngFor="let item of product">
+        <div class="card text-left">
+            <img class="card-img-top" height="300px" src="{{item.img}}" alt="">
+            <div class="card-body">
+                <h4 class="card-title">{{item.ten}}</h4>
+                <p class="card-text">Giá: {{item.gia}} VNĐ</p>
+                <button type="button" class="btn btn-primary" btn-lg btn-block>Chi tiết</button>
+            </div>
+        </div>
+    </div>
+</div>
